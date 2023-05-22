@@ -12,7 +12,7 @@ def afficherPlateau(p, gagnant=None):
 
 
 def morpion():
-    joueur = "X"
+    joueur = "☆"
     tour = 0
 
     while True:
@@ -43,7 +43,7 @@ def morpion():
             print("Égalité")
             break
 
-        joueur = "O" if joueur == "X" else "X"  # on change de joueur
+        joueur = "☀" if joueur == "☆" else "☆"  # on change de joueur
 
 
 if __name__ == "__main__":
